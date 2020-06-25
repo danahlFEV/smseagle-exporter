@@ -1,4 +1,5 @@
 FROM python:3.5
+COPY requirements.txt ./
 RUN pip install --no-cache -r requirements.txt
-ADD exporter.py .env
+COPY . .
 CMD ["python", "exporter.py"]
