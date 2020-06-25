@@ -22,7 +22,7 @@ class CustomCollector(object):
 
 if __name__ == '__main__':
   # Usage: json_exporter.py port endpoint
-  start_http_server(int(8000))
+  start_http_server(int(8001))
   REGISTRY.register(CustomCollector())
 
   while True: time.sleep(1)
