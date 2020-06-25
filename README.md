@@ -1,5 +1,5 @@
 # smseagle-exporter
-Prometheus exporter for SMSEagle
+Prometheus exporter for SMSEagle, listens on port 8000
 
 Add .env file with URL and access_token
 ```
